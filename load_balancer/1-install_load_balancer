@@ -40,8 +40,8 @@ fronten lilian123-tech-frontend
 
 backend lilian123-tech-backend
     balance roundrobin
-    server 6217-web-01 54.237.236.195 check
-    server 6217-web-02 3.94.158.52 check
+    server 6217-web-01 54.237.236.195:80check
+    server 6217-web-02 3.94.158.52:80 check
 "
 
 # shellcheck disable=SC2154
